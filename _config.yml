@@ -97,7 +97,7 @@ defaults:
 
 # Sidebar image and theme color of the site.
 accent_image:          /assets/img/background.jpg
-accent_color:          '#4fb1ba'
+accent_color:          '#FF6138'
 
 # The string encoding which fonts to fetch from Google Fonts.
 # See: <https://qwtel.com/hydejack/docs/configuration/>

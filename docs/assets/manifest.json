@@ -4,7 +4,7 @@
   "short_name": "Martin Achenbach",
   "description": "Machine Learning Blog of Martin Achenbach.",
   "start_url": "/blog/?utm_source=homescreen",
-  "theme_color": "#4fb1ba",
+  "theme_color": "#FF6138",
   "background_color": "#fff",
   "orientation": "portrait",
   "display": "standalone",
