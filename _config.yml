@@ -75,6 +75,21 @@ paginate:              5
 paginate_path:         /page-:num/
 
 
+# Side Bar Links
+# ========================================================================================
+
+defaults:
+  - scope:
+      path: index.html
+    values:
+      menu: true
+      order: 1
+  - scope:
+      path: about.md
+    values:
+      menu: true
+      order: 2
+
 # Customizaton
 # ========================================================================================
 
