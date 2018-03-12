@@ -271,8 +271,10 @@ titles_from_headings:
   strip_title:         true
   collections:         true
 
+markdown:              kramdown
 kramdown:
   footnote_backlink:   '&#x21a9;&#xfe0e;'
+  parse_block_html:    true
   math_engine:         mathjax
   math_engine_opts:
     preview:           true
