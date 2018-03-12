@@ -19,6 +19,9 @@ Let's take a look at the probably most famous embedding model [*word2vec*](https
 
 ![king-man+woman=queen](/blog/assets/img/embeddings/king-queen.png)
 
+
+
+
 ### Where Does the Word "*Embedding*" Come from?
 *Embeddings* are essential vectors of real numbers. Each entry in this vector corresponds to a learned feature. The crux is that the length of the embedding vector is much smaller than compared to a one-hot encoded vector (which has the same size as the dictionary). The name describes the act of *embedding* such a high-dimensional (e.g. one-hot encoded) entity into the low-dimensional space of the embeddings[^2]. Sounds technical? Let me try to find a proper analogy: if someone asks you what defines you as a person, you could probably tell them quite a story. But if they ask you what defines you but you are only allowed to use *just three words*, you really have to think about what sets you apart, what "features" make you special. It is the same with embedding models: we ask the model to explain a complex issue (high-dimensional) but force it to use a compressed, simple (low-dimensional) answer. That way it really needs to focus on the most important parts and find features that properly explain the observed data.
 
@@ -42,7 +45,11 @@ The results really surprised me as the top 5 has a lot of reasonable choices[^6]
 
 The following graphic visualizes the embedding of the four artists and their nearest neighbors which are colored accordingly. For this visualizatin, I used a dimensionality reduction technique called [t-SNE](https://lvdmaaten.github.io/tsne/). Again, you can see that similar artists cluster nicely together (with a few exceptions).
 
+
 ![2-dimensional embeddings of artists](/blog/assets/img/embeddings/artist-embeddings.png)
+
+
+
 
 Of course, the rankings are not perfect as I still try to figure out how Sam Smith will fit in his hip hop neighborhood, but nevertheless the results are impressive. Please note again, there was *absolutely no information* about genres, features, or similar present during training - just user and song IDs. To explain the observed likes and dislikes, the model figured out itself some sense of genres, musical styles, and other information that is helpful for prediction. It was clearly able to induce some semantic meaning into the embeddings.
 
