@@ -44,7 +44,7 @@ The following graphic visualizes the embedding of the four artists and their nea
 
 ![2-dimensional embeddings of artists]("/assets/img/embeddings/artist-embeddings.png")
 
-Of course, the rankings are not perfect as I still try to figure out how Sam Smith will fit in his hip hop neighborhood, but nevertheless the results are impressive. Please note again, there was *absolutely no information* about genres, features, or similar - just user and song IDs. To explain the observed likes and dislikes, the model figured out itself some sense of genres, musical styles, and other information that is helpful for prediction. It was clearly able to induce some semantic meaning into the embeddings.
+Of course, the rankings are not perfect as I still try to figure out how Sam Smith will fit in his hip hop neighborhood, but nevertheless the results are impressive. Please note again, there was *absolutely no information* about genres, features, or similar present during training - just user and song IDs. To explain the observed likes and dislikes, the model figured out itself some sense of genres, musical styles, and other information that is helpful for prediction. It was clearly able to induce some semantic meaning into the embeddings.
 
 One weakness of embedding models is their interpretability: although you can compare e.g. the embeddings of different artists and verify their reasonability, it is really hard to interpret the embeddings themselves. The models do not provide human-interpretable captions for the learned features.
 
